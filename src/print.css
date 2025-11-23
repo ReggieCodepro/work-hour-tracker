@@ -1,0 +1,42 @@
+@media print {
+  /* Hide the main timer/tracker card */
+  .timer-card {
+    display: none !important;
+  }
+
+  /* Hide the manual entry form */
+  .manual-entry-card {
+    display: none !important;
+  }
+
+  /* Hide the new name input card */
+  .name-input-card {
+    display: none !important;
+  }
+
+  /* Hide the action buttons in the table header and body */
+  .actions-col, .actions-cell {
+    display: none !important;
+  }
+
+  /* Hide the Reset and Print buttons themselves */
+  .print-reset-buttons {
+    display: none !important;
+  }
+
+  /* Ensure the log card and table take up the full width */
+  .card, .container {
+    border: none !important;
+    box-shadow: none !important;
+  }
+
+  /* Optional: Add a title for the printed page */
+  body::before {
+    content: "Work Log Report";
+    font-size: 24px;
+    font-weight: bold;
+    display: block;
+    text-align: center;
+    margin-bottom: 20px;
+  }
+}

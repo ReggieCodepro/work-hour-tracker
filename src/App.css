@@ -1,0 +1,13 @@
+body {
+  background-color: #f8f9fa;
+}
+
+.container {
+  max-width: 800px;
+}
+
+.card-body .display-3 {
+    font-size: 4.5rem;
+    font-weight: 300;
+    line-height: 1.2;
+}

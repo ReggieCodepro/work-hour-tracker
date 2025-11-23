@@ -71,3 +71,30 @@ export default defineConfig([
   },
 ])
 ```
+
+## Running the Application Locally
+
+To run this application on your local machine, follow these steps:
+
+1.  **Clone the repository:**
+    If you haven't already, clone the repository to your local machine using:
+    ```bash
+    git clone https://github.com/ReggieCodepro/work-hour-tracker.git
+    ```
+    Then navigate into the project directory:
+    ```bash
+    cd work-hour-tracker
+    ```
+
+2.  **Install dependencies:**
+    The project uses Node.js and npm (Node Package Manager) for managing its dependencies. You need to install all the packages listed in `package.json`.
+    ```bash
+    npm install
+    ```
+
+3.  **Start the development server:**
+    Once the dependencies are installed, you can start the development server. This will compile the React application and serve it, usually at `http://localhost:5173` (or another port if 5173 is in use).
+    ```bash
+    npm run dev
+    ```
+    Your browser should automatically open to the application, or you can manually navigate to the URL provided in the terminal output.
